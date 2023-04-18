@@ -59,7 +59,7 @@
                 <div class="mb-3">
                     <label class="form-label">Company Logo</label>
                     <input type="file" name="logo" class="form-control">
-                    <img class="" src="{{$listing->logo ? asset('storage/'. $listing->logo) : asset('img/job-1.jpg')}}" alt="{{$listing->company .'logo'}}">
+                    <img class="img-thumbnail" width="100" src="{{$listing->logo ? asset('storage/'. $listing->logo) : asset('img/job-1.jpg')}}" alt="{{$listing->company .'logo'}}">
                     @error('logo')
                     <p class="text-danger mt-1 text-small text-bold">{{$message}}</p>    
                     @enderror
@@ -67,7 +67,7 @@
 
                 <div class="mb-3">
                     <label class="form-label">Job Description</label>
-                    <textarea class="form-control" name="description" placeholder="Include tasks, requirements, salary, etc" id="" cols="30" rows="10">{{$listing->description}}</textarea>
+                    <textarea class="form-control tinymce-editor" name="description" placeholder="Include tasks, requirements, salary, etc" id="" cols="30" rows="10">{{$listing->description}}</textarea>
                     @error('description')
                     <p class="text-danger mt-1 text-small text-bold">{{$message}}</p>    
                     @enderror
