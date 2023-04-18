@@ -28,7 +28,7 @@
     <script src="/js/demo-theme.min.js?1674944402"></script>
     <div class="row g-0 flex-fill">
       <div class="col-12 col-lg-6 col-xl-4 border-top-wide border-primary d-flex flex-column justify-content-center">
-        <div class="container container-tight my-5 px-lg-5">
+        <div class="container container-tight my-5 px-4 px-lg-5">
           <div class="text-center mb-3">
             <a href="/" class="navbar-brand navbar-brand-autodark"><img src="/img/job-7.png" height="36" alt=""></a>
           </div>

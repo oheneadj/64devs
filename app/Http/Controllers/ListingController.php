@@ -119,4 +119,13 @@ class ListingController extends Controller
             'heading' => 'Manage Your Listings'
         ]);
     }
+
+    // Show about page
+
+    public function about()
+    {
+        return view('about', [
+            'heading' => 'About 64Devs'
+        ]);
+    }
 }

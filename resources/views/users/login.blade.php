@@ -8,8 +8,6 @@
     <title>Login - Laragigs</title>
     <!-- CSS files -->
     <link href="/css/tabler.min.css?1674944402" rel="stylesheet"/>
-    <link href="/css/tabler-flags.min.css?1674944402" rel="stylesheet"/>
-    <link href="/css/tabler-payments.min.css?1674944402" rel="stylesheet"/>
     <link href="/css/tabler-vendors.min.css?1674944402" rel="stylesheet"/>
     <link href="/css/demo.min.css?1674944402" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/css/toastr.css" rel="stylesheet" />
@@ -25,12 +23,12 @@
     </style>
   </head>
   <body  class=" d-flex flex-column bg-white">
-    <script src="/js/demo-theme.min.js?1674944402"></script>
+    
     <div class="row g-0 flex-fill">
       <div class="col-12 col-lg-6 col-xl-4 border-top-wide border-primary d-flex flex-column justify-content-center">
-        <div class="container container-tight my-5 px-lg-5">
+        <div class="container container-tight my-5 px-4 px-lg-5">
           <div class="text-center mb-3">
-            <a href="/" class="navbar-brand navbar-brand-autodark"><img src="/img/job-7.png" height="36" alt=""></a>
+            <a href="/" class="navbar-brand rounded navbar-brand-autodark"><img src="/favicon-32x32.png" height="36" alt=""></a>
           </div>
           <h2 class="h2 text-center mb-1">
             Login

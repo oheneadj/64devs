@@ -57,3 +57,6 @@ Route::get('/login', [UserController::class, 'login'])->name('login')->middlewar
 
 // Login user
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
+
+//About page
+Route::get('/about', [ListingController::class, 'about']);

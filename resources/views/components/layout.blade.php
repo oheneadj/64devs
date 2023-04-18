@@ -15,21 +15,21 @@
   <meta name="twitter:site" content="@64devs">
   <meta name="twitter:title" content="Remote Developer Jobs Worldwide | 64devs">
   <meta name="twitter:description" content="Looking for remote web developer jobs worldwide? 64devs is a remote work listing website for developers. Find your next remote job here.">
-  <meta name="twitter:image" content="/favicon-32x32.png">
+  <meta name="twitter:image" content="https://64devs.oheneadjei.com/favicon-32x32.png">
 
   <!-- Facebook meta tags -->
   <meta property="og:url" content="https://64devs.oheneadjei.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Remote Developer Jobs Worldwide | 64devs">
-  <meta property="og:image" content="/favicon-32x32.png">
+  <meta property="og:image" content="https://64devs.oheneadjei.com/favicon-32x32.png">
   <meta property="og:description" content="Looking for remote web developer jobs worldwide? 64devs is a remote work listing website for developers. Find your next remote job here.">
 
   <!-- Google meta tags -->
   <meta name="google-site-verification" content="ABC123">
   
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://64devs.oheneadjei.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://64devs.oheneadjei.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://64devs.oheneadjei.com/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- CSS files -->
