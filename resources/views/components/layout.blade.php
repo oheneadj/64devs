@@ -6,11 +6,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Laragigs - Find Remote Laravel Work</title>
+    <title>Remote Developer Jobs Worldwide | 64devs</title>
+  <meta name="description" content="Looking for remote web developer jobs worldwide? 64devs is a remote work listing website for developers. Find your next remote job here.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Twitter meta tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@64devs">
+  <meta name="twitter:title" content="Remote Developer Jobs Worldwide | 64devs">
+  <meta name="twitter:description" content="Looking for remote web developer jobs worldwide? 64devs is a remote work listing website for developers. Find your next remote job here.">
+  <meta name="twitter:image" content="/favicon-32x32.png">
+
+  <!-- Facebook meta tags -->
+  <meta property="og:url" content="https://64devs.oheneadjei.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Remote Developer Jobs Worldwide | 64devs">
+  <meta property="og:image" content="/favicon-32x32.png">
+  <meta property="og:description" content="Looking for remote web developer jobs worldwide? 64devs is a remote work listing website for developers. Find your next remote job here.">
+
+  <!-- Google meta tags -->
+  <meta name="google-site-verification" content="ABC123">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <!-- CSS files -->
     <link href="/css/tabler.min.css?1674944402" rel="stylesheet" />
-    <link href="/css/tabler-flags.min.css?1674944402" rel="stylesheet" />
-    <link href="/css/tabler-payments.min.css?1674944402" rel="stylesheet" />
     <link href="/css/tabler-vendors.min.css?1674944402" rel="stylesheet" />
     <link href="/css/demo.min.css?1674944402" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/css/toastr.css" rel="stylesheet" />
@@ -28,7 +51,7 @@
 </head>
 
 <body>
-    <script src=/js/demo-theme.min.js?1674944402"></script>
+    
     <div class="page">
         <!-- Navbar -->
         <header class="navbar navbar-expand-md navbar-dark navbar-overlap d-print-none">
@@ -38,7 +61,7 @@
                 </button>
                 <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
                     <a href="/">
-                        <img src="./static/logo-white.svg" width="110" height="32" alt="Laragigs" class="navbar-brand-image">
+                        <img src="#" width="110" height="32" alt="64Devs" class="navbar-brand-image">
                     </a>
                 </h1>
                 <div class="navbar-nav flex-row order-md-last">
@@ -58,7 +81,7 @@
                                 <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
                             </svg>
                         </a>
-                        <div class="nav-item dropdown d-none d-md-flex me-3">
+                        {{-- <div class="nav-item dropdown d-none d-md-flex me-3">
                             <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
                                 <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -157,7 +180,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     @auth
                     <div class="nav-item dropdown">
@@ -208,7 +231,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="./form-elements.html">
+                                <a class="nav-link" href="/about">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -245,15 +268,15 @@
                             <ul class="list-inline list-inline-dots mb-0">
                                 <li class="list-inline-item"><a href="/about" class="link-secondary">About</a></li>
                                 <li class="list-inline-item"><a href="/listings/create"  class="btn btn-danger" rel="noopener">Create Listing</a></li>
-                                <li class="list-inline-item">
-                                    <a href="https://github.com/sponsors/codecalm" target="_blank" class="link-secondary" rel="noopener">
-                                        Developed with
+                                <li class="list-inline-item">Developed by
+                                    <a href="https://oheneadjei.com" target="_blank" class="link-secondary" rel="noopener">
+                                        
                                         <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink icon-filled icon-inline" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                             <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
                                         </svg>
-                                        by Ohene
+                                        Ohene
                                     </a>
                                 </li>
                             </ul>
@@ -262,7 +285,7 @@
                             <ul class="list-inline list-inline-dots mb-0">
                                 <li class="list-inline-item">
                                     Copyright &copy; <?= date('Y') ?>
-                                    <a href="/" class="link-secondary">Laragigs</a>.
+                                    <a href="/" class="link-secondary">64Devs</a>.
                                     All rights reserved
                                 </li>
                             </ul>
@@ -281,7 +304,7 @@
                 </div>
                 <form action="/" class="modal-body">
                     <div class="mb-3">
-                        <input type="text" class="form-control" name="search" placeholder="Search Laragigs ...">
+                        <input type="text" class="form-control" name="search" placeholder="Search 64Devs ...">
                     </div>
                     <div class="modal-footer">
                         <a href="#" class="btn btn-link link-secondary" data-bs-dismiss="modal">
@@ -309,7 +332,7 @@
         <script src=/js/tabler.min.js?1674944402" defer></script>
         <script src=/js/demo.min.js?1674944402" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.js"></script>
-
+        <script src="https://cdn.tiny.cloud/1/rgtybcm51t3d3p03agarv4j1d806260cntd4yex6x91pyax1/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <script>
             $(document).ready(function() {
                 toastr.options.timeOut = 10000;
@@ -321,6 +344,38 @@
                 @endif
             });
         </script>
+
+            <script type="text/javascript">
+
+                tinymce.init({
+
+                selector: 'textarea.tinymce-editor',
+
+                menubar: false,
+
+                plugins: [
+
+                    'advlist autolink lists link image charmap print preview anchor',
+
+                    'searchreplace visualblocks code fullscreen',
+
+                    'insertdatetime media table paste code help wordcount', 'image'
+
+                ],
+
+                toolbar: 'undo redo | formatselect | ' +
+
+                    'bold italic backcolor | alignleft aligncenter ' +
+
+                    'alignright alignjustify | bullist numlist outdent indent | ' +
+
+                    'removeformat | help',
+
+                content_css: '//www.tiny.cloud/css/codepen.min.css'
+
+            });
+
+            </script>
     </body>
 
 </html>

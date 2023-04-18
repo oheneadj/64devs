@@ -1,6 +1,6 @@
 <x-layout>
     @include('partials._header')
-    <div class=" col-sm-12 col-md-6 mx-auto">
+    <div class=" col-sm-12 col-md-8 mx-auto">
         <div class="card card-md">
             <div class="card-body">
               <h2 class="h2 text-center mb-4">Create New Listing</h2>
@@ -64,7 +64,7 @@
 
                 <div class="mb-3">
                     <label class="form-label">Job Description</label>
-                    <textarea class="form-control" name="description" placeholder="Include tasks, requirements, salary, etc" id="" cols="30" rows="10">{{old('description')}}</textarea>
+                    <textarea class="form-control tinymce-editor" name="description" placeholder="Include tasks, requirements, salary, etc" id="" cols="30" rows="10">{{old('description')}}</textarea>
                     @error('description')
                     <p class="text-danger mt-1 text-small text-bold">{{$message}}</p>    
                     @enderror

@@ -1,16 +1,16 @@
 <x-layout>
 
 
-    <div class="col-12">
-        <div class="card">
+    <div class="col-md-8 col-sm-12 mx-auto mt-5">
+        <div class="card py-3">
             <div class="row g-0">
-                <div class="col-auto">
+                <div class="col-auto d-none d-sm-none d-md-block">
                     <div class="card-body">
                         <div class="avatar avatar-md" style="background-image: url({{$listing->logo ? asset('storage/'. $listing->logo) : asset('img/job-1.jpg')}})"></div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card-body ps-0">
+                <div class="col mx-sm-5 px-sm-5 px-md-0 mx-md-0 ">
+                    <div class="card-body ">
                         <div class="row">
                             <div class="col">
                                 <h2 class="mb-0">{{$listing->title}}</h2>
@@ -65,16 +65,16 @@
                             </div>
                             <x-tags :tagsCsv="$listing->tags" />
                         </div>
-                        <div>
+                        <div class="mx-sm-3 me-md-5">
                             <h3 class="mb-0 mt-3">Job Description</h3>
-                            <p>
-                                {{$listing->description}}
+                            <p >
+                                {!!$listing->description!!}
                             </p>
-                            <a href="mailto:{{$listing->email}}" class="btn btn-primary">Contact Employer</a>
-                            <a href="{{$listing->website}}" target="_blank" class="btn btn-cyan">Visit Website</a>
+                            <a href="mailto:{{$listing->email}}" class="nav-link link-primary mt-3">Contact Employer</a>
+                            <a href="{{$listing->website}}" target="_blank" class="nav-link link-cyan mt-3">Visit Website</a>
                         </div>
                         <div class="mt-3">
-                            <a href="/" class="btn btn-sm btn-dark">Go Back</a>
+                            <a href="/" class="btn btn-dark">Go Back</a>
                         </div>
                         @auth
                         @if(auth()->user()->id == $listing->user_id)
