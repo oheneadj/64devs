@@ -1,10 +1,9 @@
+# 64devs - A Laravel and Blade-based Developer Job Listing Web App
+
 <p align="center"><a href="https://64devs.oheneadjei.com" target="_blank"><img src="/public/64devs-preview.png" alt="64Devs Preview"></a></p>
 
 
-
 <!-- ![64devs website](/public/64devs-preview.png) -->
-
-# 64devs - A Laravel and Blade-based Developer Job Listing Web App
 
 64devs is a web app designed to make it easy for developers to find job listings from top companies in one centralized location. Built using Laravel and Blade, this app provides a simple and intuitive interface for job seekers to browse and apply for developer positions.
 
